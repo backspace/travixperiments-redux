@@ -2,14 +2,14 @@ language: generic
 script: false
 
 stages:
-  - Jants :man_kiss_man:
+  - "Jants :man_kiss_man:"
 
 jobs:
   include:
-    - stage: Jants :man_kiss_man:
+    - stage: "Jants :man_kiss_man:"
       script: /bin/true
       env: TORTLE=skortle
-    - stage: Jants :man_kiss_man:
+    - stage: "Jants :man_kiss_man:"
       script: /bin/true
       env: SKORTLE=tortle
 
