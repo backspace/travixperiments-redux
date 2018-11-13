@@ -11,10 +11,13 @@ jobs:
   include:
     - stage: Jorts
       script: /bin/true
+      name: jortsjob
     - stage: Jants
       script: /bin/true
+      name: jantsjob
     - stage: okay
       script: /bin/false
+      name: okayjob
 
 notifications:
   slack:
