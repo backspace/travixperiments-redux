@@ -13,7 +13,7 @@ jobs:
       script: env
       name: jortsjob
     - stage: Jants
-      script: /bin/true
+      script: env
       name: jantsjob
     - stage: okay
       script: /bin/false
