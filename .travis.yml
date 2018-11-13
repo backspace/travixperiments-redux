@@ -10,7 +10,7 @@ stages:
 jobs:
   include:
     - stage: Jorts
-      script: /bin/true
+      script: env
       name: jortsjob
     - stage: Jants
       script: /bin/true
