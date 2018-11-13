@@ -14,7 +14,7 @@ jobs:
       name: jortsjob
     - stage: Jants
       script: env
-      name: jantsjob
+      name: jantsjob with a $ and a ( etc :flushed:
     - stage: okay
       script: /bin/false
       name: okayjob
