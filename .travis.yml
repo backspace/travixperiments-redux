@@ -3,7 +3,7 @@ script: false
 
 stages:
   - Jorts
-  - Jants :two_men_holding_hands:
+  - "Jants :two_men_holding_hands:""
   - okay
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
     - stage: Jorts
       script: env
       name: jortsjob
-    - stage: Jants :two_men_holding_hands:
+    - stage: "Jants :two_men_holding_hands:"
       script: env
       name: "jantsjob with a $ and a ( etc :flushed:"
     - stage: okay
