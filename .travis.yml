@@ -3,7 +3,7 @@ script: false
 
 stages:
   - Jorts
-  - "Jants :two_men_holding_hands:""
+  - "Jants :two_men_holding_hands:"
   - okay
 
 jobs:
