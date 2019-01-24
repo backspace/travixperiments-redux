@@ -2,8 +2,7 @@ language: generic
 script: false
 
 stages:
-  - name: Jorts
-    if: type = cron OR (commit_message =~ /jortleby/) OR (tag IS present AND tag =~ /^hello/)
+  - Jorts
   - Jants :two_men_holding_hands:
   - okay
 
